@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Research Notebook"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: notebooks/index.qmd
+        text: Notebook
+      - href: about.qmd
+        text: About
+  page-footer: "© Yusan Wong · Built with Quarto"
+
+bibliography: references.bib
+csl: https://www.zotero.org/styles/ieee
+link-citations: true
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    html-math-method: katex
+    code-fold: true
+    number-sections: false
+
+execute:
+  freeze: auto

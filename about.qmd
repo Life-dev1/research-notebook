@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+Engineer transitioning from aircraft maintenance planning into bioengineering, documenting research notes openly.

@@ -1,0 +1,9 @@
+---
+title: "Research Notebook"
+listing:
+  contents: notebooks/*.qmd
+  sort: "date desc"
+  type: default
+---
+
+Open lab notebook on bioengineering: biosensing, point-of-care diagnostics, and wearable sensing.

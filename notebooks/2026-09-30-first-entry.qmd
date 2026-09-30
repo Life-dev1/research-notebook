@@ -1,0 +1,34 @@
+---
+title: "First entry: electrochemical biosensor basics"
+date: 2026-09-30
+categories: [biosensing, template]
+---
+
+## Math
+
+The Nernst equation for an electrode potential:
+
+$$
+E = E^0 - \frac{RT}{nF}\ln Q
+$$ {#eq-nernst}
+
+Refer to it as @eq-nernst. Inline math also works: $i = nFAk^0C$.
+
+## Citations
+
+Add entries to `references.bib` (e.g. exported from Zotero with Better BibTeX) and cite them like this [@clark1962].
+
+## Code
+
+```{python}
+#| label: fig-michaelis
+#| fig-cap: "Michaelis–Menten response curve"
+import numpy as np, matplotlib.pyplot as plt
+S = np.linspace(0, 10, 200); Vmax, Km = 1.0, 2.0
+plt.plot(S, Vmax*S/(Km+S)); plt.xlabel("[S] (mM)"); plt.ylabel("v"); plt.show()
+```
+
+## References
+
+::: {#refs}
+:::
